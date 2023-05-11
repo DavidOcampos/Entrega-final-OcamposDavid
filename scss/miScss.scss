@@ -1,0 +1,231 @@
+/* Estilos generales */
+body {
+   background-color: #FBAB7E;
+   background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+  }
+  
+  .container-fluid {
+    padding: 20px;
+  }
+  
+  /* Estilos de navegación */
+  
+  .navbar-brand img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 2rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Estilos del contenido principal */
+  h1 {
+    font-size: 36px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 2rem;
+  }
+  
+  /* Estilos del pie de página */
+  .pie-pagina {
+    
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .pie-pagina h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .pie-pagina .img-fluid {
+    max-width: 70px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+  }
+  
+  .btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  button:hover {
+    color: black;
+  }
+  
+  button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+  }
+  
+  button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  #carouselExampleIndicators {
+    margin-top: 20px;
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+  }
+
+
+
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+
+/* Estilos para la sección de contacto */
+.contact {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.contact-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #286090;
+}
+
+
+
+  
+  
+  
